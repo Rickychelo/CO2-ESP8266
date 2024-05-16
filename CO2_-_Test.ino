@@ -33,7 +33,7 @@ void loop() {
       Serial.print(humidity);
       Serial.println(" %");
 
-      // Aquí puedes enviar los datos a donde los necesites, como a una plataforma en la nube, base de datos, etc.
+      
     } else {
       Serial.println("Error al leer el sensor!");
     }
